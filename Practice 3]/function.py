@@ -19,8 +19,7 @@ def get_two_numbers():
             print("")
 
             # checks if type is numerical
-            numbers = number_1 + number_2
-
+         
             numbers = [number_1, number_2]
             
 
