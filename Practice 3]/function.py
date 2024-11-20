@@ -12,13 +12,18 @@ def get_two_numbers():
             print("Input two numbers")
             print("")
 
-            number_1 = int(input("Input the first number "))
+            number_1 = (input("Input the first number "))
             print("")
 
-            number_2 = int(input("Input the second number "))
+            number_2 = (input("Input the second number "))
             print("")
 
-            return [number_1, number_2]
+            # checks if tyope is numerical
+
+            numbers = [number_1, number_2]
+            
+
+            return numbers
         except TypeError:
             print("Input only numbers. Try again")
 
