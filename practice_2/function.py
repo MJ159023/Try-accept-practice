@@ -9,6 +9,7 @@ def ask_user_for_number():
         try:
             print("Hello please input a number.")
             user_choice = int(input())
+            print("")
             return user_choice
         except ValueError:
             print("Please input only numbaers. Try again")
