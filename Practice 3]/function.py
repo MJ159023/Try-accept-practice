@@ -1,8 +1,10 @@
 
 def get_two_numbers():
     """
-    Asks User for two numbers than returns them.
-    If User fails to input numbers prints error message.
+    No arguments
+    Asks User for two numbers
+    Checks for wrong input
+    Returns Numbers
     """
 
     while True:
