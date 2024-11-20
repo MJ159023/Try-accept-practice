@@ -18,7 +18,9 @@ def get_two_numbers():
             number_2 = (input("Input the second number "))
             print("")
 
-            # checks if tyope is numerical
+            # checks if type is numerical
+            type(number_1)
+            type(number_2)
 
             numbers = [number_1, number_2]
             
