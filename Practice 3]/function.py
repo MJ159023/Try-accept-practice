@@ -12,7 +12,7 @@ def get_two_numbers():
             print("Input two numbers")
             print("")
 
-            number_1 = (input("Input the first number "))
+            number_1 = int(input("Input the first number "))
             print("")
 
             number_2 = (input("Input the second number "))
@@ -20,8 +20,7 @@ def get_two_numbers():
 
             # checks if type is numerical
          
-            numbers = [number_1, number_2]
-            
+            numbers = number_1 + number_2
 
             return numbers
         except TypeError:
