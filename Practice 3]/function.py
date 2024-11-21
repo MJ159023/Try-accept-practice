@@ -25,5 +25,3 @@ def get_two_numbers():
             return numbers
         except TypeError:
             print("Input only numbers. Try again")
-
-get_two_numbers()
